@@ -1,0 +1,48 @@
+<resources>
+    <!-- Application title. [CHAR LIMIT=20] -->
+    <string name="app_name">P6-NewsByNormaCMartinez</string>
+
+    <!-- Text to show in the list when there are no news [CHAR LIMIT=NONE] -->
+    <string name="no_news_found">No news found. There was an unexpected problem with downloading data from the server. Close the app and try once again later.</string>
+
+    <!-- Content description for different images [CHAR LIMIT=100] -->
+    <string name="different_images">different_images</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection. Please turn on your wifi or mobile data and restart the app.</string>
+
+    <!-- Stage 2 add Settings Menu Item [CHAR LIMIT=NONE]-->
+    <string name="settings_menu_item">Settings</string>
+
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">News Settings</string>
+
+    <!-- Settings activity Strings   -->
+    <string name="settings_title_label">Search Phrase</string>
+    <string name="settings_title_key" translatable="false">title</string>
+    <string name="settings_title_default" translatable="false">Asia</string>
+
+    <!-- Strings  Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_relevance_value</string>
+
+    <!-- Label for order-by title option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_recent_label">Most Recent</string>
+    <string name="settings_order_by_most_recent_value" translatable="false">newest</string>
+
+    <!--Other Strings-->
+    <string name="q">q</string>
+    <string name="show_fields">show-fields</string>
+    <string name="thumbnail">thumbnail</string>
+    <string name="order_by">order-by</string>
+    <string name="show_tags">show-tags</string>
+    <string name="contributor">contributor</string>
+    <string name="api_key">api-key</string>
+
+
+</resources>
